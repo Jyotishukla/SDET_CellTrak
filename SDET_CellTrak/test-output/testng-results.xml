@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76404" started-at="2019-01-25T23:14:28Z" finished-at="2019-01-25T23:15:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76404" started-at="2019-01-25T23:14:28Z" finished-at="2019-01-25T23:15:44Z">
+      <class name="getRequest.GetData">
+        <test-method status="PASS" signature="given_RepositoriesofTopicExists_when_RepositoryInfoIsRetrieved_then_higestFolks()[pri:0, instance:getRequest.GetData@7c16905e]" name="given_RepositoriesofTopicExists_when_RepositoryInfoIsRetrieved_then_higestFolks" duration-ms="1621" started-at="2019-01-25T17:14:28Z" finished-at="2019-01-25T17:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_RepositoriesofTopicExists_when_RepositoryInfoIsRetrieved_then_higestFolks -->
+        <test-method status="PASS" signature="given_UserOrTopicExists_when_UserInfoIsRetrieved_then_200StatusCodeIsReceivedWithCount()[pri:0, instance:getRequest.GetData@7c16905e]" name="given_UserOrTopicExists_when_UserInfoIsRetrieved_then_200StatusCodeIsReceivedWithCount" duration-ms="2387" started-at="2019-01-25T17:14:30Z" finished-at="2019-01-25T17:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_UserOrTopicExists_when_UserInfoIsRetrieved_then_200StatusCodeIsReceivedWithCount -->
+        <test-method status="PASS" signature="given_className_when_langAndFile_then_showRepo()[pri:0, instance:getRequest.GetData@7c16905e]" name="given_className_when_langAndFile_then_showRepo" duration-ms="759" started-at="2019-01-25T17:14:32Z" finished-at="2019-01-25T17:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_className_when_langAndFile_then_showRepo -->
+        <test-method status="PASS" signature="given_listmorethan10_when_exceededTheRateLimit_then_forbiddenResponseisThrown()[pri:0, instance:getRequest.GetData@7c16905e]" name="given_listmorethan10_when_exceededTheRateLimit_then_forbiddenResponseisThrown" duration-ms="71297" started-at="2019-01-25T17:14:33Z" finished-at="2019-01-25T17:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_listmorethan10_when_exceededTheRateLimit_then_forbiddenResponseisThrown -->
+        <test-method status="FAIL" signature="given_pageParameter_when_jumpOnPageParameter_then_showFirstNameOnList()[pri:0, instance:getRequest.GetData@7c16905e]" name="given_pageParameter_when_jumpOnPageParameter_then_showFirstNameOnList" duration-ms="267" started-at="2019-01-25T17:15:44Z" finished-at="2019-01-25T17:15:44Z">
+          <exception class="org.json.JSONException">
+            <message>
+              <![CDATA[JSONObject["items"] not found.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.json.JSONException: JSONObject["items"] not found.
+	at org.json.JSONObject.get(JSONObject.java:471)
+	at org.json.JSONObject.getJSONArray(JSONObject.java:618)
+	at getRequest.GetData.given_pageParameter_when_jumpOnPageParameter_then_showFirstNameOnList(GetData.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.json.JSONException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- given_pageParameter_when_jumpOnPageParameter_then_showFirstNameOnList -->
+      </class> <!-- getRequest.GetData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
