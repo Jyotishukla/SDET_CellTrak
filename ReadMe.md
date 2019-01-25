@@ -1,6 +1,11 @@
 <h1> CellTrak SDET Coding Challenge </h1>
 
 <h3> How to configure the project in a system </h3> 
+<ol>
+  <li> Download the sources. </li>
+  <li> Build the maven project build. </li>
+  <li>Run the test.</li>
+ </ol>
 
 <h3>About Test Cases: </h3>
 <ul>
